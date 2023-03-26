@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+header {
+  background-color: #0077c2;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar__title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar__cart {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar__cartIcon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  color: #fff;
+}
+
+.navbar__cartBadge {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: bold;
+  background-color: #f44336;
+  color: #fff;
+  padding: 0.2rem 0.5rem;
+  border-radius: 50%;
+  position: relative;
+  top: -10px;
+  right: px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem;
+  }
+
+  .navbar__title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .navbar__cart {
+    margin-top: 0.5rem;
+  }
+
+  .navbar__cartBadge {
+    font-size: 0.6rem;
+    padding: 0.15rem 0.4rem;
+    top: -8px;
+    right: -8px;
+  }
+}
+
+  
